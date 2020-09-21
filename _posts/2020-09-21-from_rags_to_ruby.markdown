@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "From Rags to Ruby"
-date:       2020-09-21 23:06:57 +0000
+date:       2020-09-21 19:06:58 -0400
 permalink:  from_rags_to_ruby
 ---
 
@@ -27,7 +27,7 @@ All I had energy to do after a hard day's work was to watch my favorite tv show 
 
 
 
-![](http://<iframe src="https://giphy.com/embed/b7woNC8aQXcaY" width="480" height="359" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-squidward-b7woNC8aQXcaY">via GIPHY</a></p>)
+![squidward](http://<iframe src="https://giphy.com/embed/b7woNC8aQXcaY" width="480" height="359" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-squidward-b7woNC8aQXcaY">via GIPHY</a></p>)
 
 
 
@@ -89,8 +89,6 @@ Fast forward many moons later . . .
 
 
 ![](https://images.app.goo.gl/NMDtaLP4obVQTeup7)
-
-
 
 
 
