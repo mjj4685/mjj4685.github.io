@@ -39,7 +39,7 @@ Although I became skilled at this profession, this was just a job. An industry I
 
 
 
-![](http://<iframe src="https://giphy.com/embed/xchUhdPj5IRyw" width="480" height="355" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/spongebob-squarepants-tired-xchUhdPj5IRyw">via GIPHY</a></p>)
+![image](http://<iframe src="https://giphy.com/embed/xchUhdPj5IRyw" width="480" height="355" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/spongebob-squarepants-tired-xchUhdPj5IRyw">via GIPHY</a></p>)
 
 
 
