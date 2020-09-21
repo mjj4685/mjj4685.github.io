@@ -1,11 +1,11 @@
 # Site settings
-author: sunny-framework-8369
-title: 
+author: Mallory Johnson
+title: MJ's Hideaway
 header-img: img/home-bg.png
 email: mjohnson4685@gmail.com
-copyright_name: sunny-framework-8369
+copyright_name: Mallory Johnson
 description: > # this means to ignore newlines until "baseurl:"
-  
+  ...
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  mjj4685
