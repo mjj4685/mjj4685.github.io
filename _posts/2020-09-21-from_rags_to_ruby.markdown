@@ -50,7 +50,7 @@ Always in the back of my mind, I thought, I need to contribute to something more
  
 
 
-![](https://images.app.goo.gl/sp42GQaXYiJNce8MA)
+![Image of RBG](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cbsnews.com%2Fnews%2Fruth-bader-ginsburg-cultural-icon-notorious-rbg%2F&psig=AOvVaw0ujzh5p9aHq9e8HoU-8uNl&ust=1600821554869000&source=images&cd=vfe&ved=2ahUKEwiRraSSw_vrAhWki60KHV0pDnoQjRx6BAgAEAc)
 
 
 
