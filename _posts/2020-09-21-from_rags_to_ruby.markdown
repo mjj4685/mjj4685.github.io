@@ -27,7 +27,7 @@ All I had energy to do after a hard day's work was to watch my favorite tv show 
 
 
 
-![squidward](http://<iframe src="https://giphy.com/embed/b7woNC8aQXcaY" width="480" height="359" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-squidward-b7woNC8aQXcaY">via GIPHY</a></p>)
+![squidward](https://giphy.com/embed/b7woNC8aQXcaY)
 
 
 
