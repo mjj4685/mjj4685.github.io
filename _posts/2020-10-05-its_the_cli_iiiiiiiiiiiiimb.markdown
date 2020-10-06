@@ -168,16 +168,17 @@ Onto the CLI class :
 
 
 
-class CLI
 
 
-    def call
+  class CLI 
+		 def call
         puts "Welcome to PlanetFax, stargazer!"
         puts "To see planets, enter 'planetz'"
         puts "To exit PlanetFax, enter 'exit'"
         API.get_data
         menu
-    end
+       end
+	end
 		
 		
 		
@@ -241,7 +242,7 @@ How would the user input their information?       input!
 
 And what methods are typically used for user input?    gets!
 
-And what is the user wants to be cool and just prefers to input random stuff?   For example:   ExIT,   PLanetZ    ,  etc?
+And what if the user wants to be cool and just prefers to input random stuff?   For example:   ExIT,   PLanetZ    ,  etc?
 
 I need to make everything uniform, get rid of white space and such... hmmmmm
 
@@ -263,44 +264,41 @@ There needed to be three options for the user based on what I had setup in the #
 
 I decided to create some methods below each statement, so that it would make the method ultimately more flexible.  
 
+
 #planets_list      #goodbye     #invalid_entry
 
 
-If I had simply listed a planets list, goodbye message, invalid entry message into the if/else statements, If I wanted to change those messages and change or add some functionality, it would make for some messy and potentially code down the road. 
+
+If I had simply listed a planets list, goodbye message, invalid entry message into the if/else statements, If I wanted to change those messages and change or add some functionality, it would make for some messy and potentially breakable code down the road. 
 
 
 
-After I made it through the comparitive statments, I knew there was hope. 
-
+After I made it through the comparative statements, I knew there was hope. 
 
 
 
 def  its_the_climb
    experience = gets.strip.downcase
-
    if experience == "struggle"
-   puts
-        "...The struggles I'm facing
-        The chances I'm taking
-        Sometimes might knock me down but
-        No I'm not breaking
-        I may not know it
-        But these are the moments that
-        I'm going to remember most yeah
-        Just got to keep going
-
-        else
-
-        puts
+       puts
+         "...The struggles I'm facing
+         The chances I'm taking
+         Sometimes might knock me down but
+         No I'm not breaking
+         I may not know it
+         But these are the moments that
+         I'm going to remember most yeah
+         Just got to keep going
+   else
+         puts
         "Keep on moving
-        Keep climbing
-        Keep the faith baby
-        It's all about
-        It's all about
-        The climb
-        Keep the faith..."
-
-    end
+         Keep climbing
+         Keep the faith baby
+         It's all about
+         It's all about
+         The climb
+         Keep the faith..."
+	end
 end
 
 
