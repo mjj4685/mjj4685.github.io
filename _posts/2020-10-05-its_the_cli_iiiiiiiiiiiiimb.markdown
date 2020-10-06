@@ -169,13 +169,14 @@ Onto the CLI class :
 
 
 class CLI
+
+
     def call
         puts "Welcome to PlanetFax, stargazer!"
         puts "To see planets, enter 'planetz'"
         puts "To exit PlanetFax, enter 'exit'"
         API.get_data
         menu
-
     end
 		
 		
@@ -244,27 +245,63 @@ And what is the user wants to be cool and just prefers to input random stuff?   
 
 I need to make everything uniform, get rid of white space and such... hmmmmm
 
+
+
+![google it](https://media.giphy.com/media/3FiM7pXSNJNSqffreb/giphy.gif)
+
+
+
+
 AH HA! 
 
 #strip    #downcase
 
 
+Now onto the if/else statements. 
 
+There needed to be three options for the user based on what I had setup in the #call method above. 
 
+I decided to create some methods below each statement, so that it would make the method ultimately more flexible.  
 
+#planets_list      #goodbye     #invalid_entry
 
 
+If I had simply listed a planets list, goodbye message, invalid entry message into the if/else statements, If I wanted to change those messages and change or add some functionality, it would make for some messy and potentially code down the road. 
 
 
 
+After I made it through the comparitive statments, I knew there was hope. 
 
 
 
 
+def  its_the_climb
+   experience = gets.strip.downcase
 
+   if experience == "struggle"
+   puts
+        "...The struggles I'm facing
+        The chances I'm taking
+        Sometimes might knock me down but
+        No I'm not breaking
+        I may not know it
+        But these are the moments that
+        I'm going to remember most yeah
+        Just got to keep going
 
+        else
 
+        puts
+        "Keep on moving
+        Keep climbing
+        Keep the faith baby
+        It's all about
+        It's all about
+        The climb
+        Keep the faith..."
 
+    end
+end
 
 
 
@@ -272,6 +309,7 @@ AH HA!
 
 
 
+![leslie knope](https://media.giphy.com/media/p0OJ2Pn79Qqu4/giphy.gif)
 
 
 
@@ -281,6 +319,7 @@ AH HA!
 
 
 
+Until next time, my friends. Thanks for stopping by and see you again soon!
 
 
 
@@ -288,55 +327,14 @@ AH HA!
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ -----------------------KEEP CALM AND CODE ON ------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ ![hackerz](https://media.giphy.com/media/xT8qBgHkfCACqvjJny/giphy.gif)
 
 
 
@@ -356,10 +354,9 @@ And in case you just got a case of nostalgia (circa 2009).  Here you go...
 https://www.youtube.com/watch?v=NG2zyeVRcbs
 
 
-You're welcome!
+You're very welcome!
 
 ( I also sincerely apologize if this song is now stuck in your head... )
-
 
 
 
