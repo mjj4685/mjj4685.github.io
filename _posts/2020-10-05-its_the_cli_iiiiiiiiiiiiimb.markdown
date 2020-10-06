@@ -126,7 +126,6 @@ We have an API class!
 
 
 class API
-
     def self.get_data
         response = RestClient.get("https://swapi.dev/api/planets/")
         planets_array = JSON.parse(response.body)["results"]
@@ -149,7 +148,14 @@ Well, I am first creating this class so that I can call upon it in CLI class lat
 
 
 
+
+
+
+
 Onto the CLI class :
+
+
+
 
 
 
@@ -159,8 +165,10 @@ Onto the CLI class :
 
 
 
-class CLI
 
+
+
+class CLI
     def call
         puts "Welcome to PlanetFax, stargazer!"
         puts "To see planets, enter 'planetz'"
@@ -173,6 +181,40 @@ class CLI
 		
 		
 		
+		
+		
+Naturally, I cooked up a call method that would print out a welcome message and prompts for the user. 
+
+Underneath, you'll notice the API class! Which I am now invoking in order to retrieve that data and spit it out in a readable form for the user. 
+
+Underneath, the menu method is then invoked, which brings us to the menu method. 
+
+
+The menu method I knew would incapsulate if/else statements based on the user's input. 
+
+
+So....  where to begin ?
+
+
+As I began to ponder... the song continued in my ear... 
+
+
+"... There's always gonna be another mountain
+I'm always gonna wanna make it move
+Always gonna be an uphill battle
+Sometimes I'm gonna have to lose
+Ain't about how fast I get there
+Ain't about what's waiting on the other side
+It's the CLIiiiiiiiiiimb! "
+
+
+
+I was inspired once again and somewhere within my mind, the info was always there... the thought came to me almost instantaneously. 
+
+
+
+
+
 
     def menu
         input = gets.strip.downcase
@@ -191,6 +233,39 @@ class CLI
 				
 	   end
 end
+
+
+
+How would the user input their information?       input!
+
+And what methods are typically used for user input?    gets!
+
+And what is the user wants to be cool and just prefers to input random stuff?   For example:   ExIT,   PLanetZ    ,  etc?
+
+I need to make everything uniform, get rid of white space and such... hmmmmm
+
+AH HA! 
+
+#strip    #downcase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
