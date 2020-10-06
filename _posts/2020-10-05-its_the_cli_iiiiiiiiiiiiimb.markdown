@@ -349,7 +349,7 @@ Until next time, my friends. Thanks for stopping by and see you again soon!
 And in case you just got a case of nostalgia (circa 2009).  Here you go...
 
 
-https://www.youtube.com/watch?v=NG2zyeVRcbs
+[mc](https://www.youtube.com/watch?v=NG2zyeVRcbs)
 
 
 You're very welcome!
