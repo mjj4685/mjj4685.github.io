@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "'It's the **CLI**iiiiiiiiiiiiimb...'"
-date:       2020-10-06 00:25:44 +0000
+date:       2020-10-05 20:25:45 -0400
 permalink:  its_the_cli_iiiiiiiiiiiiimb
 ---
 
